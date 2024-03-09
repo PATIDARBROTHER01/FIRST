@@ -146,5 +146,42 @@ position: relative;
   border-bottom:2px solid yellow ;
 }
 
+@media only screen and (max-width: 600px)
+{
+#h1{
+position: relative;
+font-size: 50px;
+font-family:cursive;
+text-shadow: 3px 5px white;
+}
 
+.ii
+{
+color: darkblue;
+font-size: 20px;
+}
+nav li {
+position:relative;
+display: inline-block;
+font-size: 15px;
+left: 0px;
+margin-top: 20px;
+}
+
+nav a {
+text-decoration: none;
+color: darkred;
+padding: 2px;
+}
+img
+{
+height: 150px;
+width: 150px;
+position: relative;
+border: 2px solid black;
+border-radius: 50%;
+box-shadow: 15px 15px 12px lightblue;
+left:170px;
+}
+       }
 
